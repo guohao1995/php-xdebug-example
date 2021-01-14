@@ -9,7 +9,7 @@ class SlowResponse extends Controller
 {
     public function index() {
         // We will simulate a slow response with Sleep();
-        sleep(15);
+        sleep(10);
         return 'PHP Linux L200';
     }
 

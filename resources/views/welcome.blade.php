@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    AppService.L200.OSS.PHPLinux.2 
+                    AppService.L200.OSS.PHPLinux.2
                 </div>
 
                 <div class="links">
