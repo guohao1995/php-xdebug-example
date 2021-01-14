@@ -13,7 +13,7 @@ class SlowResponse extends Controller
         return 'Slow response';
     }
 
-    public function slowNested() {
+    public function slowDB() {
         $this->goIntoSlowFunction();
         return 'Another slow response';
     }

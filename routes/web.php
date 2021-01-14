@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/slowresponse', 'SlowResponse@index');
-Route::get('/slowresponse2', 'SlowResponse@slowNested');
+Route::get('/slowdb', 'SlowResponse@slowDB');
