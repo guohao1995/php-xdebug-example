@@ -10,12 +10,12 @@ class SlowResponse extends Controller
     public function index() {
         // We will simulate a slow response with Sleep();
         sleep(15);
-        return 'Slow response';
+        return 'PHP Linux L200';
     }
 
     public function slowDB() {
         $this->goIntoSlowFunction();
-        return 'Another slow response';
+        return 'PHP Linux L200 - DB Query';
     }
 
     private function goIntoSlowFunction(){

@@ -17,5 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/slowresponse', 'SlowResponse@index');
+Route::get('/linuxl200', 'SlowResponse@index');
 Route::get('/slowdb', 'SlowResponse@slowDB');
